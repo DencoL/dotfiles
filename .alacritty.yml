@@ -8,3 +8,6 @@ font:
     family: 'JetBrainsMono NF'
   bold_italic:
     family: 'JetBrainsMono NF'
+
+env:
+  TERM: xterm-256color
