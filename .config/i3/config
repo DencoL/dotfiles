@@ -193,5 +193,5 @@ bar {
 exec xrandr --output Virtual1 --mode 2560x1440
 exec xrdb -merge ~/.Xresources
 exec $HOME/.screenlayout/home.sh
-exec feh --bg-fill /home/dlochman/Pictures/wallpaper.jpg
+exec feh --bg-fill $HOME/Pictures/wallpaper.jpg
 exec pactl load-module module-null-sink sink_name=Source && pactl load-module module-virtual-source source_name=VirtualMic master=Source.monitor
